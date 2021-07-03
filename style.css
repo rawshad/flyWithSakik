@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: #FF5733;
+    background: crimson;
 }
 .navbar .max-width{
     display: flex;
@@ -101,7 +101,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: #FF5733;
+    color: crimson;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -215,7 +215,7 @@ section .title::after{
 
 /* about section styling */
 .about .title::after{
-    content: "who we are";
+    content: "who i am";
 }
 .about .about-content .left{
     width: 45%;
@@ -269,10 +269,10 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "what we provide";
+    content: "what i provide";
 }
 .services .serv-content .card{
-    width: calc(25% - 20px);
+    width: calc(33% - 20px);
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -380,7 +380,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with us";
+    content: "who with me";
 }
 .teams .carousel .card{
     background: #222;
