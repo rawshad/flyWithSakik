@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["YouTuber", "Developer", "Blogger", "Designer", "Freelancer"],
+        strings: ["Immigration Consultancy", "Full ECA Verification Service", "Work Permit Visa", "Study Abroad", "Visit Visa Service", "IELTS Course"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["YouTuber", "Developer", "Blogger", "Designer", "Freelancer"],
+        strings: ["Immigration", "ECA", "Study Abroad", "Work Permit", "Visit Visa", "IELTS Course"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -60,11 +60,11 @@ $(document).ready(function(){
                 nav: false
             },
             600:{
-                items: 2,
+                items: 1,
                 nav: false
             },
             1000:{
-                items: 3,
+                items: 2,
                 nav: false
             }
         }
