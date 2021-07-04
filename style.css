@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: #FF5733;
 }
 .navbar .max-width{
     display: flex;
@@ -101,8 +101,11 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    color: #FF5733;
     transition: all 0.3s ease;
+}
+.navbar.sticky .logo a {
+    color: rgb(0, 0, 0);
 }
 .navbar.sticky .logo a span{
     color: #fff;
@@ -165,7 +168,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/about.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -224,7 +227,8 @@ section .title::after{
 .about .about-content .left img{
     height: 400px;
     width: 400px;
-    object-fit: cover;
+    margin: 0 auto;
+    object-fit: stretch;
     border-radius: 6px;
 }
 .about .about-content .right{
