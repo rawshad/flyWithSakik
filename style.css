@@ -247,18 +247,18 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: crimson;
+    background: #FF5733;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #FF5733;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: crimson;
+    color: #FF5733;
     background: none;
 }
 
@@ -296,6 +296,14 @@ section .title::after{
 }
 .services .serv-content .card:hover .box{
     transform: scale(1.05);
+}
+
+.services .serv-content .card .box p a {
+    color: crimson;
+    font-weight: bolder;
+}
+.services .serv-content .card:hover .box p a {
+    color:#222;
 }
 .services .serv-content .card i{
     font-size: 50px;
@@ -412,7 +420,7 @@ section .title::after{
     transform: scale(1.05);
 }
 .teams .carousel .card .text{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
