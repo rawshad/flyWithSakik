@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .services, .skills, .teams, .contact, .immigration, .eca, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -86,7 +86,8 @@ section .title::after{
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
-.navbar.sticky{
+
+.navbar.sticky, .navbar-service{
     padding: 15px 0;
     background: #FF5733;
 }
@@ -104,10 +105,10 @@ section .title::after{
     color: #FF5733;
     transition: all 0.3s ease;
 }
-.navbar.sticky .logo a {
+.navbar.sticky .logo a, .navbar-service .logo a {
     color: rgb(0, 0, 0);
 }
-.navbar.sticky .logo a span{
+.navbar.sticky .logo a span, .navbar-service .logo a span{
     color: #fff;
 }
 .navbar .menu li{
@@ -552,6 +553,35 @@ section .title::after{
   color: crimson;
   background: none;
 }
+/* service page styling */
+.service__details {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+}
+.immigration .title::after {
+    content: "our immigration services";
+}
+.eca .title::after {
+    content: "our eca service";
+}
+.service__details img {
+    width: 100%; 
+    height: auto;
+    padding: 2%;
+}
+.service__details p, h3 {
+    text-align: justify;
+    padding: 0 2%;
+}
+.service__details h3 {
+    text-decoration: underline;
+    line-height: 2;
+}
+.service__details ul {
+    padding-left: 5%;
+} 
+
 /* footer section styling */
 footer{
     background: #111;
@@ -566,7 +596,6 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
-
 
 /* responsive media query start */
 @media (max-width: 1104px) {
