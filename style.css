@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, .immigration, .eca, footer{
+.about, .services, .skills, .teams, .contact, .immigration, .eca, .ielts, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -565,6 +565,9 @@ section .title::after{
 .eca .title::after {
     content: "our eca service";
 }
+.ielts .title::after {
+    content: "special general training course";
+}
 .service__details img {
     width: 100%; 
     height: auto;
@@ -580,7 +583,23 @@ section .title::after{
 }
 .service__details ul {
     padding-left: 5%;
-} 
+}
+.service__details .t-content {
+    overflow-x:auto;
+    padding: 0 2%;
+}
+.service__details .t-content table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+tr:nth-child(even){background-color: #f2f2f2}
 
 /* footer section styling */
 footer{
